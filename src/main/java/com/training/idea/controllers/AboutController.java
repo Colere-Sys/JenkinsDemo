@@ -12,7 +12,7 @@ public class AboutController {
 
     @GetMapping("/about")
     public String about() {
-        return "This is my project IDEA version 1.0";
+        return "This is my project IDEA version v1.0";
     }
 
     @PostMapping("/human")
